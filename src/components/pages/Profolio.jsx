@@ -20,10 +20,7 @@ export default function Profolio() {
         <card id="card1">
           <img src="./Ecom.png" alt="E-Commerce Back End" />
           <a href="https://github.com/WickedDan/BackEnd-Mod13.git" id="title">E-Commerce Back End</a>
-          <a href="https://github.com/WickedDan/BackEnd-Mod13.git" id="subtitle">Manage Products, Tags, Categories in the server database.
-            My Challenge was to build the back end for an e-commerce site.
-            Taking a working Express.js API and configure it to use Sequelize
-            to interact with a PostgreSQL database.</a>
+          <a href="https://github.com/WickedDan/BackEnd-Mod13.git" id="subtitle">Manage Products, Tags, Categories in the server database.</a>
         </card>
         <card id="card1">
           <img src="./Weather Dash.png" alt="Weather DashBoard" />
