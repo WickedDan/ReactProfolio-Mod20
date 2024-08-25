@@ -9,8 +9,7 @@ export default function Profolio() {
           <img src="./blog.png" alt="Code-Refactor" />
           <a href="https://wickeddan.github.io/My-Blog/" id="title">My First Blog</a>
           <a href="https://wickeddan.github.io/My-Blog/" id="subtitle">
-            Using javascript I was able to collect user information, store it in Local Storage and use it as a blog post on the next webpage.
-            This website will allow you input information and "post" it to the folling webpage as a blog post.
+            This website will allow you input information and post it to the folling webpage as a blog post.
             This website also features a light/dark switch.</a>
         </card>
         <card id="card1">
