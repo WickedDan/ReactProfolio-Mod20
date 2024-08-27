@@ -8,7 +8,6 @@ import Contact from './pages/Contact';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
@@ -26,9 +25,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
       <main className="mx-3">{renderPage()}</main>
     </div>
   );
