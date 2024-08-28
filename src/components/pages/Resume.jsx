@@ -1,5 +1,6 @@
 export default function Resume() {
   return (
+    <div>
     <h1 className="title display-1 border border-3 rounded-pill">Resume</h1>
     <div className="container border">
 
@@ -91,5 +92,6 @@ export default function Resume() {
         </ul>
       </section>
     </div>
+    </div>  
   );
 }
