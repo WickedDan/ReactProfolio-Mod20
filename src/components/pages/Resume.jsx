@@ -1,7 +1,7 @@
 export default function Resume() {
   return (
+    <h1 className="title display-1 border border-3 rounded-pill">Resume</h1>
     <div className="container border">
-      <h1 className="title display-1 border border-3 rounded-pill">Resume</h1>
 
       <header className="contact-info">
         <h1>Daniel Contreras</h1>
