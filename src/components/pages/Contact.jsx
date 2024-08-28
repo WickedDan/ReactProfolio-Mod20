@@ -63,10 +63,10 @@ export default function Contact() {
         </form>
 
       <footer>
-        <div className="footer text-center">
-          <a className="p-5 display-6" href="mailto:daniel@wickedflow.com">Email</a>
-          <a className="p-5 display-6" href="https://github.com/WickedDan">Github</a>
-          <a className="p-5 display-6" href="https://www.instagram.com/daniel_h_contreras/">Instagram</a>
+        <div className="d-flex justify-content-center">
+          <a className="p-5" href="mailto:daniel@wickedflow.com">Email</a>
+          <a className="p-5" href="https://github.com/WickedDan">Github</a>
+          <a className="p-5 " href="https://www.instagram.com/daniel_h_contreras/">Instagram</a>
         </div>
       </footer>
     </div>
