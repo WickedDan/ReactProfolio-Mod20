@@ -36,7 +36,7 @@ export default function Contact() {
     if (res.success) {
         console.log("Success", res);
     }
-    window.alert('Success, Form Submitted!', formData);
+    window.alert('Success, Contact Info Submitted!', formData);
     setFormData({ name: '', email: '', message: '' });
 };
 
