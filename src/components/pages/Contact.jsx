@@ -15,11 +15,30 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormData({ name: '', email: '', message: ''});
-  };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "6b5ed045-7092-418b-befd-cdcd13a5235a");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+        },
+        body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+        console.log("Success", res);
+    }
+    window.alert('Success, Form Submitted!', formData);
+    setFormData({ name: '', email: '', message: '' });
+};
 
   return (
     <div>
@@ -72,3 +91,4 @@ export default function Contact() {
     </div>
   );
 }
+
